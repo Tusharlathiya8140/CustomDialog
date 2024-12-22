@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_marginHorizontal="@dimen/_20sdp"
+    android:padding="@dimen/_1sdp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Enter Details"
+        android:textSize="@dimen/_25sdp"
+        android:layout_marginBottom="@dimen/_10sdp" />
+
+    <EditText
+        android:id="@+id/editName"
+        style="@style/edit_16"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:hint="Enter Name" />
+
+    <EditText
+        android:id="@+id/editEmail"
+        style="@style/edit_16"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:hint="Enter Email" />
+
+    <EditText
+        android:id="@+id/editContact"
+        style="@style/edit_16"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:inputType="number"
+        android:hint="Enter Contact Number" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        style="@style/button_16"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:text="Submit" />
+
+</LinearLayout>
